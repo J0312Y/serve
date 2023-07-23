@@ -1,14 +1,11 @@
 import Home from "./pages/Home";
-import { Navbar } from "./pages/Home";
+//import { Navbar } from "./pages/Home";
 
 function App() {
   return (
-    <>
-      <Navbar/>
-      <Navbar/>
-      <Navbar/>
+    <div className="bg-gray-30">
       <Home/>
-    </>
+    </div>
     
   );
 }
